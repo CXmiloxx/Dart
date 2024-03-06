@@ -7,7 +7,5 @@ void main() {
 
   int suma = capital;
   int i = 1;
-  suma = 0;  while (i <= numero) {
-    
-  }
+  suma = 0;
 }
