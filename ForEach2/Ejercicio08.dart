@@ -10,7 +10,6 @@ import 'dart:io';
 void main() {
   Map<String, String> diccionario = {};
 
-  // Pedir al usuario que introduzca las palabras en español e inglés
   print("Introduce las palabras en español e inglés separadas por dos puntos (por ejemplo, palabra:translation).");
   print("Escribe 'terminar' para finalizar.");
 

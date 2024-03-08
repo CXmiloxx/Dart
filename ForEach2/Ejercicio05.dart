@@ -12,10 +12,9 @@ void main() {
 
   dic.forEach((key, value) {
     print("$key tiene $value créditos");
-    totalCreditos += value; // Sumar los créditos de cada asignatura
+    totalCreditos += value;
   });
 
-  // Imprimir el número total de créditos del curso
   print("El número total de créditos del curso es: $totalCreditos");
 }
 
