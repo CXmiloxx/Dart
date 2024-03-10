@@ -170,23 +170,33 @@ void main() {
   // conjunto = Set.from(["1", "2", "3","2"]);
   // conjunto.forEach((x) => print("elemnto del conjunto $x"));
 
-  print("Ingrese su sabor preferido");
-  String sabor = stdin.readLineSync().toString();
+  // print("Ingrese su sabor preferido");
+  // String sabor = stdin.readLineSync().toString();
 
-  switch (sabor) {
-    case "chocolate":
-      print("Su helado es de chocolate");
-      break;
+  // switch (sabor) {
+  //   case "chocolate":
+  //     print("Su helado es de chocolate");
+  //     break;
 
-      case "vainilla":
-      print("Su helado es de vainilla");
-      break;
+  //     case "vainilla":
+  //     print("Su helado es de vainilla");
+  //     break;
 
-      case "naranja":
-      print("Su helado es de naranja");
-      break;
+  //     case "naranja":
+  //     print("Su helado es de naranja");
+  //     break;
       
-      default:
-      print("No tenemos su sabor favorito");
-  }
+  //     default:
+  //     print("No tenemos su sabor favorito");
+  // }
+  //Funciones
+
+  // void imprimir(String nombre){
+  //   print("Hola $nombre");
+  // }
+  // imprimir("Pedro");
+
+  // void imprimirFlecha(String nombre) =>print(nombre);
+
+  
 }
