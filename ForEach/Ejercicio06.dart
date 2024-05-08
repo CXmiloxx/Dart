@@ -15,7 +15,7 @@ void main() {
 
 
   asignaturas.forEach((asignatura) {
-    stdout.write('¿Cuál es tu nota en $asignatura? ');
+    print('¿Cuál es tu nota en $asignatura? ');
     double nota = double.parse(stdin.readLineSync()!);
 
 
