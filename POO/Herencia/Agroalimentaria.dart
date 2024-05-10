@@ -1,4 +1,3 @@
-// Clase Producto
 class Producto {
   DateTime fechaCaducidad;
   String numeroLote;
