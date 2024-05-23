@@ -31,7 +31,8 @@ class Programador extends Empleado {
   Programador(String nombre, String apellido, int edad, this.lenguaje)
       : super(nombre, apellido, edad);
 
-  void mostrarDetalles() {    
+  void mostrarDetalles() {
+        
 
     super.mostrarDetalles();
       print("Ingresa el lenguaje de programación");
